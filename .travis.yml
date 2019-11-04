@@ -10,7 +10,6 @@ matrix:
 
 
 script:
-- pip install setuptools
 - python setup.py build
 - python setup.py install
 - pip list
