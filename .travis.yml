@@ -11,5 +11,6 @@ matrix:
 
 script:
 - pip install setuptools
-- pip install .
+- python setup.py build
+- python setup.py install
 - pip list
